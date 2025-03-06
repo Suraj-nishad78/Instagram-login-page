@@ -15,7 +15,9 @@ const instagramRoute = require('./features/login/routes')
 
 app.use('/', instagramRoute)
 
-app.listen(4000, ()=>{
-    console.log("Serve is up on 4000");
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, ()=>{
+    console.log("Server is up on 4000");
     connectToDb();
 });
