@@ -11,6 +11,13 @@ body{
 }
 
 @media (max-width: 512px){
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
     
 #language{
     margin-top: 10px;
