@@ -28,7 +28,7 @@ body{
 
 #logo{
     text-align: center;
-    margin: 3em 0;
+    margin: 5em 0;
 }
 #logo img{
     max-width: 3em;
@@ -37,6 +37,9 @@ body{
 #login-form, #create-account, #footer{
     text-align: center;
     
+}
+#login-form{
+    margin-bottom: 4em;
 }
 #login-form input{
     display: block;
