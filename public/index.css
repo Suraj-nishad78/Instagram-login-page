@@ -68,7 +68,7 @@ body{
 
 #login-form button{
     min-width: 85vw;
-    padding: 10px 0px;
+    padding: 14px 0px;
     border-radius: 25px;
     border: none;
     /* background-color: blue; */
@@ -83,6 +83,7 @@ body{
     min-width: 82vw;
     border-radius: 25px;
     border: none;
+    background-color: white;
     color:#0864e4;
     border: 1px solid #0864e4;
     font-weight: 600;
