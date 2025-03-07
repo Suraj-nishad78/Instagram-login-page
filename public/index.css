@@ -58,6 +58,14 @@ body{
     color: rgb(128, 128, 128);
 }
 
+#login-form p a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+#login-form p:hover{
+    cursor: pointer;
+}
+
 #login-form button{
     min-width: 85vw;
     padding: 10px 0px;
